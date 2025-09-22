@@ -28,9 +28,9 @@ After extensive tuning and training on industrial procurement data:
 - **Best model**: GRU4Rec + Attention  
 - **Primary evaluation metric**: Hit@3 (top-3 category accuracy)  
 - **Business-relevant results**:  
-  - Hit@1 ≈ **41%** (exact next category prediction)
-  - Hit@3 ≈ **52%** (next category in top-3 recommendations)  
-  - Hit@5 ≈ **63%** (next category in top-5 recommendations)  
+  - Hit@1 ≈ **51%** (exact next category prediction)
+  - Hit@3 ≈ **78%** (next category in top-3 recommendations)  
+  - Hit@5 ≈ **89%** (next category in top-5 recommendations)  
 - **F1-scores by category**:  
   - Strong performance on frequent industrial categories (>0.60 F1)  
   - Acceptable performance on specialized/rare categories through class reweighting  
